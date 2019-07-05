@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link href='lg.css' rel='stylesheet' type='text/css'>
+<form action="login.php" method="post">
+<div id="navwrapper">
+  <div id="navbar"> <table class="tablewrapper">
+  
+    <tr>
+      <td class="row1">Username</td>
+      <td class="row1">Password</td>
+    </tr>
+    <tr>
+      <td><input type="text" class="inputtext" name="Username" required >
+      </td>
+      <td><input type="password" class="inputtext" name="password" required >
+      </td>
+      <td><button type="submit">Log In</button>
+	  </td>
+	  
+    </tr>
+    <tr>
+  
+ 
+      
+  </table>
+    
+    <h1 class="logowrapper">PGA</h1>
+  </div>
+  </div>
+  </form>
+  <form action="registration.php" method="post">
+  <div id="contentwrapper">
+    <div id="content">
+      
+      <div id="leftbod">
+        
+        <div class="connect bolder" style="color:green">Project Guide Allotment
+          </div>       
+      </div>
+       
+      <div>
+        <center>
+        <div class="signup bolder"> New Registration </div>      
+        <div >
+        <input type="text" class="inputbody in1 " placeholder="First Name" required name="fname">
+
+        <input type="text" class="inputbody in1 " placeholder="Middle Name" required name="mname">
+																															
+        <input type="text" class="inputbody in1 "  placeholder="Last Name" required name="lname">
+      
+        </div>
+<div >
+        <input type="text" class="inputbody in2" placeholder="Student Id(8digit)" pattern="[0-9]{8}" required name="mid">
+        </div>
+ <div >
+        <div >
+		    					<select name="semester" class="form-control selectpicker" >	
+			      					<option value="" required>Year</option>	
+								<option >FE</option>
+			      					<option >SE</option>
+			      					<option >TE</option>
+								<option >BE</option>
+								
+							</select>
+		  				
+       <select name="branch" class="form-control selectpicker">
+			      					<option value="" required>Branch</option>	
+								<option >COMPS</option>
+			      					<option >IT</option>
+			      					<option >MECH</option>
+								<option >CIVIL</option>
+								<option >EXTC</option>
+							</select>
+				</div>																										
+      
+        </div>
+        <div >
+        <input type="text" class="inputbody in2" placeholder="Mobile number" pattern="[0-9]{10}"  required name="mo">
+        </div>
+ <div >
+        <input type="email" class="inputbody in2" placeholder="Email Id" required name="email">
+        </div>
+        <div>
+        <input type="password" class="inputbody in2" placeholder="Password" required name="password" id="password">
+        </div>
+        <div >
+        <input type="password" class="inputbody in2" placeholder="Confirm password" required  name="conf">
+        </div>
+            <div class="formbox">
+              <button type="submit" class="signbut bolder" >Register</button>
+            </div>
+      </div>
+     </div>
+     </center>
+  </div>
+  </form>
+  </body>
+  </html>
+  
